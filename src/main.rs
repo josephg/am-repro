@@ -22,5 +22,6 @@ fn load_am(filename: &str) {
 fn main() {
     load_am("C1_fast.am");
     println!();
+    println!("Note: The second trace takes about 2 minutes to replay!");
     load_am("C1_slow.am");
 }
